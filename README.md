@@ -33,11 +33,12 @@ $ sudo apt-get upgrade
   ```
   $ ssh -i <key> ubuntu@18.234.199.31 -p 2200
   ```
-##### 5. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200) and HTTP (port 80).
+##### 5. Configure the UFW Firewall to only allow incoming connections for SSH (port 2200), HTTP (port 80) and ntp (port 123).
   ```
   $ sudo ufw default deny incoming
   $ sudo ufw default allow outgoing
   $ sudo ufw allow www
+  $ sudo ufw allow ntp
   $ sudo ufw allow 2200/tcp
   $ sudo ufw enable
   ```
