@@ -3,8 +3,8 @@
 ## Project Details
   > This project do a reference installation of a Linux server. It also provide security for the server with a number of attack vectors, install and configure a database server (postgres) and deploy a web applications.
 
-**Public IP Address:** 18.234.199.31
-**Accessible SSH port:** 2200
+**Public IP Address:** 18.234.199.31  
+**Accessible SSH port:** 2200  
 **Web Service Access:** http://18.234.199.31.xip.io
 
 ## Steps to Configure Linux server
