@@ -178,4 +178,13 @@ $ sudo service apache2 restart
 ```
 If some error occur, please check apache2 error log, on /var/log/apache2/error.log
 
+#### 15. Third-Party Resources
+- How to deploy flask on apache2. [Link](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+- Google OAUTH2 after gplus deprecated. [Link](https://google-auth.readthedocs.io/en/latest/reference/google.oauth2.id_token.html)
+- SSH configuration. [Link].(http://manpages.ubuntu.com/manpages/xenial/en/man5/sshd_config.5.html)
+- Flask, Postgres and SqlAlchemy.[Link](https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/)
+- Using Flask mod_wsgi with Apache2. [docs](http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/)
+- AWS LightSail Configuration. [docs](https://docs.aws.amazon.com/lightsail/index.html)
+
+
   
